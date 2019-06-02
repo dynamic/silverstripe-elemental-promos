@@ -22,6 +22,10 @@ A block to display a group of promos - a small card with an image, headline, sho
 
 `composer require dynamic/silverstripe-elemental-promos`
 
+## License
+
+See [License](license.md)
+
 ## Usage
 
 A content block to display a group of promos - a small card with an image, headline, short desciption, and link. Typically this will display 3 to 4 promos per row depending on layout restrictions. 
@@ -64,6 +68,10 @@ The translations for this project are managed via [Transifex](https://www.transi
 and are updated automatically during the release process. To contribute, please head to the link above and get
 translating!
 
+## Maintainers
+
+ *  [Dynamic](http://www.dynamicagency.com) (<dev@dynamicagency.com>)
+
 ## Bugtracker
 Bugs are tracked in the issues section of this repository. Before submitting an issue please read over 
 existing issues to ensure yours is unique. 
@@ -78,9 +86,5 @@ If the issue does look like a new bug:
  
 Please report security issues to the module maintainers directly. Please don't file security issues in the bugtracker.
 
-## Maintainer Contact
-
- *  [Dynamic](http://www.dynamicagency.com) (<dev@dynamicagency.com>)
-
-## License
-See [License](license.md)
+## Development and contribution
+If you would like to make contributions to the module please ensure you raise a pull request and discuss with the module maintainers.
