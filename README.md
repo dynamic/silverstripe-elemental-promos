@@ -16,6 +16,7 @@ A block to display a group of promos - a small card with an image, headline, sho
 ## Requirements
 
 * dnadesign/silverstripe-elemental: ^4.0
+* dynamic/silverstripe-elemental-baseobject: ^2.0
 
 ## Installation
 
