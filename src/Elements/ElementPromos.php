@@ -45,7 +45,7 @@ class ElementPromos extends BaseElement
      * @var array
      */
     private static $db = [
-        'Content' => DBHTMLText::class,
+        'Content' => 'HTMLText',
     ];
 
     /**
