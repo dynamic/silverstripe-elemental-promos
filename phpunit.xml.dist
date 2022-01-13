@@ -1,7 +1,9 @@
 <phpunit bootstrap="vendor/silverstripe/cms/tests/bootstrap.php" colors="true">
-    <testsuite name="silverstripe-elemental-blocks">
-        <directory>tests</directory>
-    </testsuite>
+    <testsuites>
+        <testsuite name="silverstripe-elemental-promos">
+            <directory>tests/</directory>
+        </testsuite>
+    </testsuites>
 
     <filter>
         <whitelist addUncoveredFilesFromWhitelist="true">
