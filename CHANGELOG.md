@@ -1,5 +1,16 @@
 # Change Log
 
+## [2.1.0](https://github.com/dynamic/silverstripe-elemental-promos/tree/2.1.0) (2022-07-15)
+
+## What's Changed
+* Fixed promo element content area not processing short codes by @mak001 in https://github.com/dynamic/silverstripe-elemental-promos/pull/27
+* ENHANCEMENT conditional admin icon by @muskie9 in https://github.com/dynamic/silverstripe-elemental-promos/pull/29
+* REFACTOR Allow PHP8, PHPUNIT 9 by @jsirish in https://github.com/dynamic/silverstripe-elemental-promos/pull/30
+* ENHANCEMENT bootstrap template work by @jsirish in https://github.com/dynamic/silverstripe-elemental-promos/pull/31
+
+
+**Full Changelog**: https://github.com/dynamic/silverstripe-elemental-promos/compare/2.0.3...2.1.0
+
 ## [2.0.3](https://github.com/dynamic/silverstripe-elemental-promos/tree/2.0.3) (2019-06-01)
 [Full Changelog](https://github.com/dynamic/silverstripe-elemental-promos/compare/2.0.2...2.0.3)
 
