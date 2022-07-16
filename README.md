@@ -2,10 +2,7 @@
 
 A block to display a group of promos - a small card with an image, headline, short desciption, and link.
 
-[![Build Status](https://travis-ci.org/dynamic/silverstripe-elemental-promos.svg?branch=master)](https://travis-ci.org/dynamic/silverstripe-elemental-promos)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-promos/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-promos/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-promos/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-promos/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-promos/badges/build.png?b=master)](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-promos/build-status/master)
+[![CI](https://github.com/dynamic/silverstripe-elemental-promos/actions/workflows/ci.yml/badge.svg)](https://github.com/dynamic/silverstripe-elemental-promos/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/dynamic/silverstripe-elemental-promos/branch/master/graph/badge.svg)](https://codecov.io/gh/dynamic/silverstripe-elemental-promos)
 
 [![Latest Stable Version](https://poser.pugx.org/dynamic/silverstripe-elemental-promos/v/stable)](https://packagist.org/packages/dynamic/silverstripe-elemental-promos)
@@ -15,7 +12,7 @@ A block to display a group of promos - a small card with an image, headline, sho
 
 ## Requirements
 
-* dnadesign/silverstripe-elemental: ^4.0
+* dnadesign/silverstripe-elemental: ^4.8
 * dynamic/silverstripe-elemental-baseobject: ^2.0
 
 ## Installation
@@ -28,7 +25,7 @@ See [License](license.md)
 
 ## Usage
 
-A content block to display a group of promos - a small card with an image, headline, short desciption, and link. Typically this will display 3 to 4 promos per row depending on layout restrictions. 
+A content block to display a group of promos - a small card with an image, headline, short desciption, and link. Typically this will display 3 to 4 promos per row depending on layout restrictions.
 
 ### Template Notes
 
@@ -73,17 +70,17 @@ translating!
  *  [Dynamic](http://www.dynamicagency.com) (<dev@dynamicagency.com>)
 
 ## Bugtracker
-Bugs are tracked in the issues section of this repository. Before submitting an issue please read over 
-existing issues to ensure yours is unique. 
- 
+Bugs are tracked in the issues section of this repository. Before submitting an issue please read over
+existing issues to ensure yours is unique.
+
 If the issue does look like a new bug:
- 
+
  - Create a new issue
- - Describe the steps required to reproduce your issue, and the expected outcome. Unit tests, screenshots 
+ - Describe the steps required to reproduce your issue, and the expected outcome. Unit tests, screenshots
  and screencasts can help here.
- - Describe your environment as detailed as possible: SilverStripe version, Browser, PHP version, 
+ - Describe your environment as detailed as possible: SilverStripe version, Browser, PHP version,
  Operating System, any installed SilverStripe modules.
- 
+
 Please report security issues to the module maintainers directly. Please don't file security issues in the bugtracker.
 
 ## Development and contribution
