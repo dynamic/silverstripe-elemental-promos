@@ -13,7 +13,7 @@ A block to display a group of promos - a small card with an image, headline, sho
 ## Requirements
 
 * dnadesign/silverstripe-elemental: ^4.8
-* dynamic/silverstripe-elemental-baseobject: ^2.0
+* dynamic/silverstripe-elemental-baseobject: ^3.0
 
 ## Installation
 
@@ -23,6 +23,21 @@ A block to display a group of promos - a small card with an image, headline, sho
 
 See [License](license.md)
 
+## Upgrading from version 2
+
+Elemental Promos drops `sheadawson/silverstripe-linkable` usage in favor of `gorriecoe/silverstripe-linkfield`. To avoid data loss, install the `dynamic/silverstripe-link-migrator` module as follows:
+
+```markdown
+composer require dynamic/silverstripe-link-migrator
+```
+
+Then, run the task "Linkable to SilverStripe Link Migration" via `/dev/tasks`, or cli via:
+```markdown
+vendor/bin/sake dev/tasks/LinkableMigrationTask
+```
+
+This will populate all of the new Link fields with data from the old class.
+
 ## Usage
 
 A content block to display a group of promos - a small card with an image, headline, short desciption, and link. Typically this will display 3 to 4 promos per row depending on layout restrictions.
@@ -31,29 +46,27 @@ A content block to display a group of promos - a small card with an image, headl
 
 The default templates are based off [Bootstrap 4](https://getbootstrap.com/) classes/styling
 
-A simple display of the promos is being used by default in the `PromosSimple.ss` include. Also in the includes folder is another version, `PromosCardDeck` that uses the [Bootstrap 4 Card Deck](http://getbootstrap.com/docs/4.1/components/card/#card-decks).
-
 ## Screen Shots
 
 #### Front End sample of a Promos Element
-![Front End sample of a Promos Element](./images/promos-block-sample.jpg)
+![Front End sample of a Promos Element](./docs/en/_images/promos-block-sample.jpg)
 
 #### Alternate Front End sample of a Promos Element (uses Card Deck include)
-![Front End sample of a Promos Element](./images/promos-block-sample-alternate.jpg)
+![Front End sample of a Promos Element](./docs/en/_images/promos-block-sample-alternate.jpg)
 
 #### CMS - Promos Main Tab
-![CMS - Promos Block Main Tab](./images/promos-block-cms.jpg)
+![CMS - Promos Block Main Tab](./docs/en/_images/promos-block-cms.jpg)
 
 #### CMS - Promos Block - Promos List
-![CMS - Promos Block - Promos List](./images/promos-block-cms-promos-list.jpg)
+![CMS - Promos Block - Promos List](./docs/en/_images/promos-block-cms-promos-list.jpg)
 
 #### CMS - Promos Block - Promo Edit
-![CMS - Promos Block - Promos Edit](./images/promos-block-cms-promo-edit.jpg)
+![CMS - Promos Block - Promos Edit](./docs/en/_images/promos-block-cms-promo-edit.jpg)
 
 
 ## Getting more elements
 
-See [Elemental modules by Dynamic](https://github.com/dynamic/silverstripe-elemental-blocks#getting-more-elements)
+See [Elemental modules by Dynamic](https://github.com/orgs/dynamic/repositories?q=elemental&type=all&language=&sort=)
 
 ## Configuration
 

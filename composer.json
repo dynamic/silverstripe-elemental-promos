@@ -1,6 +1,17 @@
 {
     "name": "dynamic/silverstripe-elemental-promos",
     "description": "A content block to display a group of promos",
+    "license": "BSD-3-Clause",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe",
+        "elemental",
+        "content",
+        "blocks",
+        "promo",
+        "spiff",
+        "card"
+    ],
     "authors": [
         {
             "name": "Dynamic",
@@ -8,18 +19,20 @@
             "homepage": "http://www.dynamicagency.com"
         }
     ],
-    "keywords": [
-        "silverstripe", "elemental", "content", "blocks", "promo", "spiff", "card"
-    ],
-    "type": "silverstripe-vendormodule",
-    "license": "BSD-3-Clause",
     "require": {
         "dnadesign/silverstripe-elemental": "^4.8",
-        "dynamic/silverstripe-elemental-baseobject": "^2.0"
+        "dynamic/silverstripe-elemental-baseobject": "^3.0"
     },
     "require-dev": {
-        "silverstripe/recipe-testing": "^2",
-        "squizlabs/php_codesniffer": "^3.0"
+        "silverstripe/recipe-testing": "^2"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Dynamic\\Elements\\Promos\\": "src/",
+            "Dynamic\\Elements\\Promos\\Tests\\": "tests/"
+        }
     },
     "config": {
         "allow-plugins": {
@@ -28,13 +41,5 @@
             "silverstripe/recipe-plugin": true
         },
         "process-timeout": 600
-    },
-    "autoload": {
-        "psr-4": {
-            "Dynamic\\Elements\\Promos\\": "src/",
-            "Dynamic\\Elements\\Promos\\Tests\\": "tests/"
-        }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
