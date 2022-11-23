@@ -5,7 +5,7 @@
     <div class="row element__promos__list">
         <% loop $PromoList %>
             <div class="col-md-4 card">
-                <% if $Image %><img src="$Image.Fill(400,300).URL" class="card-img-top" alt="<% if $Image.Title %>$Image.Title.ATT<% else %>$Title.ATT<% end_if %>"><% end_if %>
+                <% if $Image %><img src="$Image.Fill(400,300).URL" class="img-fluid card-img-top" alt="<% if $Image.Title %>$Image.Title.ATT<% else %>$Title.ATT<% end_if %>"><% end_if %>
                 <div class="card-body">
                     <% if $Title && $ShowTitle %><h3 class="card-title">$Title</h3><% end_if %>
                     <% if $Content %><div class="card-text">$Content</div><% end_if %>
