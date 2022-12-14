@@ -1,5 +1,14 @@
 # Change Log
 
+## [3.0.0](https://github.com/dynamic/silverstripe-elemental-promos/tree/3.0.0) (2022-12-14)
+
+* DOCS README update by @jsirish in https://github.com/dynamic/silverstripe-elemental-promos/pull/32
+* ENHANCEMENT template adjustment - img-fluid by @jsirish in https://github.com/dynamic/silverstripe-elemental-promos/pull/33
+* REFACTOR require elemental baseobject 3 by @jsirish in https://github.com/dynamic/silverstripe-elemental-promos/pull/34
+* REFACTOR migrate workflow, README updates by @jsirish in https://github.com/dynamic/silverstripe-elemental-promos/pull/35
+
+**Full Changelog**: https://github.com/dynamic/silverstripe-elemental-promos/compare/2.1.0...3.0.0
+
 ## [3.0.0-alpha1](https://github.com/dynamic/silverstripe-elemental-promos/tree/3.0.0-alpha1) (2022-11-23)
 
 * DOCS README update by @jsirish in https://github.com/dynamic/silverstripe-elemental-promos/pull/32
