@@ -1,6 +1,6 @@
 {
     "name": "dynamic/silverstripe-elemental-promos",
-    "description": "A content block to display a group of promos",
+    "description": "A block to display a group of promo objects - a small card with an image, headline, short description, and link.",
     "license": "BSD-3-Clause",
     "type": "silverstripe-vendormodule",
     "keywords": [
@@ -16,7 +16,7 @@
         {
             "name": "Dynamic",
             "email": "dev@dynamicagency.com",
-            "homepage": "http://www.dynamicagency.com"
+            "homepage": "https://www.dynamicagency.com"
         }
     ],
     "require": {

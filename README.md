@@ -21,7 +21,7 @@ A block to display a group of promos - a small card with an image, headline, sho
 
 ## License
 
-See [License](license.md)
+See [License](LICENSE.md)
 
 ## Upgrading from version 2
 
@@ -70,7 +70,7 @@ See [Elemental modules by Dynamic](https://github.com/orgs/dynamic/repositories?
 
 ## Configuration
 
-See [SilverStripe Elemental Configuration](https://github.com/dnadesign/silverstripe-elemental#configuration)
+See [SilverStripe Elemental Configuration](https://github.com/silverstripe/silverstripe-elemental#configuration)
 
 ## Translations
 
@@ -80,7 +80,7 @@ translating!
 
 ## Maintainers
 
- *  [Dynamic](http://www.dynamicagency.com) (<dev@dynamicagency.com>)
+ *  [Dynamic](https://www.dynamicagency.com) (<dev@dynamicagency.com>)
 
 ## Bugtracker
 Bugs are tracked in the issues section of this repository. Before submitting an issue please read over
