@@ -21,7 +21,7 @@
     ],
     "require": {
         "dnadesign/silverstripe-elemental": "^5",
-        "dynamic/silverstripe-elemental-baseobject": "dev-refactor/allowSS5",
+        "dynamic/silverstripe-elemental-baseobject": "dev-refactor/allowElemental5",
         "silverstripe/framework": "^5"
     },
     "require-dev": {
