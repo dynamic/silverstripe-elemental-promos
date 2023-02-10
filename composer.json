@@ -31,6 +31,18 @@
         {
             "type": "vcs",
             "url": "git@github.com:jsirish/silverstripe-elemental-baseobject.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:jsirish/silverstripe-link.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:jsirish/silverstripe-display-logic.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:jsirish/silverstripe-hasonefield.git"
         }
     ],
     "minimum-stability": "dev",
