@@ -34,7 +34,8 @@
         "unclecheese/display-logic": "^3"
     },
     "require-dev": {
-        "silverstripe/recipe-testing": "^3"
+        "silverstripe/recipe-testing": "^3",
+        "squizlabs/php_codesniffer": "^3"
     },
     "repositories": [
         {
