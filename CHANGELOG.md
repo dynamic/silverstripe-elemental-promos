@@ -1,5 +1,10 @@
 # Change Log
 
+## [4.0.0-alpha1](https://github.com/dynamic/silverstripe-elemental-promos/tree/4.0.0-alpha1) (2023-06-12)
+* Refactor/allow ss5 by @jsirish in https://github.com/dynamic/silverstripe-elemental-promos/pull/36
+
+**Full Changelog**: https://github.com/dynamic/silverstripe-elemental-promos/compare/3.0.0...4.0.0-alpha1
+
 ## [3.0.0](https://github.com/dynamic/silverstripe-elemental-promos/tree/3.0.0) (2022-12-14)
 
 * DOCS README update by @jsirish in https://github.com/dynamic/silverstripe-elemental-promos/pull/32
