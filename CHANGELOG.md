@@ -1,6 +1,13 @@
 # Change Log
 
+## [4.0.0-beta1](https://github.com/dynamic/silverstripe-elemental-promos/tree/4.0.0-beta1) (2023-06-29)
+
+* REFACTOR Silverstripe link cleanup by @jsirish in https://github.com/dynamic/silverstripe-elemental-promos/pull/37
+
+**Full Changelog**: https://github.com/dynamic/silverstripe-elemental-promos/compare/4.0.0-alpha1...4.0.0-beta1
+
 ## [4.0.0-alpha1](https://github.com/dynamic/silverstripe-elemental-promos/tree/4.0.0-alpha1) (2023-06-12)
+
 * Refactor/allow ss5 by @jsirish in https://github.com/dynamic/silverstripe-elemental-promos/pull/36
 
 **Full Changelog**: https://github.com/dynamic/silverstripe-elemental-promos/compare/3.0.0...4.0.0-alpha1
