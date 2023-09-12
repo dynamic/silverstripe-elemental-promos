@@ -10,7 +10,7 @@
                     <div class="card-body">
                         <% if $Title && $ShowTitle %><h3 class="card-title">$Title</h3><% end_if %>
                         <% if $Content %><div class="card-text">$Content</div><% end_if %>
-                        <% if $ElementLink %><p>$ElementLink.setClass('btn btn-outline-primary')</p><% end_if %>
+                        <% if $ElementLink %><p>$ElementLink</p><% end_if %>
                     </div>
                 </div>
             </div>
