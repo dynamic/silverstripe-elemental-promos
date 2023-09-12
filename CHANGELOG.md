@@ -1,5 +1,13 @@
 # Change Log
 
+## [4.0.0](https://github.com/dynamic/silverstripe-elemental-promos/tree/4.0.0) (2023-09-11)
+* Refactor/allow ss5 by @jsirish in https://github.com/dynamic/silverstripe-elemental-promos/pull/36
+* REFACTOR Silverstripe link cleanup by @jsirish in https://github.com/dynamic/silverstripe-elemental-promos/pull/37
+* FEATURE template updates for Bootstrap 5 by @jsirish in https://github.com/dynamic/silverstripe-elemental-promos/pull/38
+
+
+**Full Changelog**: https://github.com/dynamic/silverstripe-elemental-promos/compare/3.0.0...4.0.0
+
 ## [4.0.0-beta1](https://github.com/dynamic/silverstripe-elemental-promos/tree/4.0.0-beta1) (2023-06-29)
 
 * REFACTOR Silverstripe link cleanup by @jsirish in https://github.com/dynamic/silverstripe-elemental-promos/pull/37
