@@ -2,7 +2,7 @@
 <% if $Content %><div class="element__content">$Content</div><% end_if %>
 
 <% if $PromoList %>
-    <div class="row element__promos__list">
+    <div class="row mb-3 element__promos__list">
         <% loop $PromoList.Sort(SortOrder) %>
             <div class="col-lg-3 col-md-4 col-sm-6 mb-4 element__promos__item">
                 <div class="card h-100">
