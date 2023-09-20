@@ -143,12 +143,14 @@ class ElementPromos extends BaseElement
      */
     public function getSummary()
     {
-        if ($this->Promos()->count() == 1) {
-            $label = ' promo';
-        } else {
-            $label = ' promos';
-        }
-        return DBField::create_field('HTMLText', $this->Promos()->count() . $label)->Summary(20);
+        $count = $this->Promos()->count();
+        $label = _t(
+            static::class . '.PLURALS',
+            'A Promo|{count} Promos',
+            [ 'count' => $count ]
+        );
+        
+        return DBField::create_field('HTMLText', $label)->Summary(20);
     }
 
     /**
