@@ -7,7 +7,7 @@ use SilverStripe\Admin\ModelAdmin;
 
 /**
  * Class PromosAdmin
- * @package Dynamic\Elements\Promos\Admin
+ *
  */
 class PromosAdmin extends ModelAdmin
 {
