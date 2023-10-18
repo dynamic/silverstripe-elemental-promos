@@ -14,11 +14,9 @@ use Symbiote\GridFieldExtensions\GridFieldOrderableRows;
 
 /**
  * Class ElementPromos
- * @package Dynamic\Elements\Promos\Elements
  *
  * @property string $Content
- *
- * @method \SilverStripe\ORM\ManyManyList Promos()
+ * @method ManyManyList|PromoObject[] Promos()
  */
 class ElementPromos extends BaseElement
 {
