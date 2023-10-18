@@ -24,6 +24,25 @@ A block to display a group of promos - a small card with an image, headline, sho
 
 See [License](LICENSE.md)
 
+## Usage
+
+A content block to display a group of promos - a small card with an image, headline, short desciption, and link. Typically this will display 3 to 4 promos per row depending on layout restrictions.
+
+### Template Notes
+
+The default templates are based off [Bootstrap 5](https://getbootstrap.com/) classes/styling
+
+## Screen Shots
+
+#### Default Template of a Promos Element
+![Default Template of a Promos Element](./docs/en/_images/promos-block-sample.png)
+
+#### CMS - Promos Main Tab
+![CMS - Promos Block Main Tab](./docs/en/_images/promos-block-cms.png)
+
+#### CMS - Promos Block - Promo Edit
+![CMS - Promos Block - Promos Edit](./docs/en/_images/promos-block-cms-promo-edit.png)
+
 ## Upgrading from version 2
 
 Elemental Promos drops `sheadawson/silverstripe-linkable` usage in favor of `gorriecoe/silverstripe-linkfield`. To avoid data loss, install the `dynamic/silverstripe-link-migrator` module as follows:
@@ -38,32 +57,6 @@ vendor/bin/sake dev/tasks/LinkableMigrationTask
 ```
 
 This will populate all of the new Link fields with data from the old class.
-
-## Usage
-
-A content block to display a group of promos - a small card with an image, headline, short desciption, and link. Typically this will display 3 to 4 promos per row depending on layout restrictions.
-
-### Template Notes
-
-The default templates are based off [Bootstrap 4](https://getbootstrap.com/) classes/styling
-
-## Screen Shots
-
-#### Front End sample of a Promos Element
-![Front End sample of a Promos Element](./docs/en/_images/promos-block-sample.jpg)
-
-#### Alternate Front End sample of a Promos Element (uses Card Deck include)
-![Front End sample of a Promos Element](./docs/en/_images/promos-block-sample-alternate.jpg)
-
-#### CMS - Promos Main Tab
-![CMS - Promos Block Main Tab](./docs/en/_images/promos-block-cms.jpg)
-
-#### CMS - Promos Block - Promos List
-![CMS - Promos Block - Promos List](./docs/en/_images/promos-block-cms-promos-list.jpg)
-
-#### CMS - Promos Block - Promo Edit
-![CMS - Promos Block - Promos Edit](./docs/en/_images/promos-block-cms-promo-edit.jpg)
-
 
 ## Getting more elements
 
