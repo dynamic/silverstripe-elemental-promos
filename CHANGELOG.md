@@ -1,5 +1,14 @@
 # Change Log
 
+## [4.0.1](https://github.com/dynamic/silverstripe-elemental-promos/tree/4.0.1) (2023-10-17)
+* BUGFIX Link types by @jsirish in https://github.com/dynamic/silverstripe-elemental-promos/pull/39
+* FEATURE require FocusPoint by @jsirish in https://github.com/dynamic/silverstripe-elemental-promos/pull/40
+* FEATURE docblock updates by @jsirish in https://github.com/dynamic/silverstripe-elemental-promos/pull/43
+* FEATURE mobile template work by @jsirish in https://github.com/dynamic/silverstripe-elemental-promos/pull/44
+
+
+**Full Changelog**: https://github.com/dynamic/silverstripe-elemental-promos/compare/4.0.0...4.0.1
+
 ## [4.0.0](https://github.com/dynamic/silverstripe-elemental-promos/tree/4.0.0) (2023-09-11)
 * Refactor/allow ss5 by @jsirish in https://github.com/dynamic/silverstripe-elemental-promos/pull/36
 * REFACTOR Silverstripe link cleanup by @jsirish in https://github.com/dynamic/silverstripe-elemental-promos/pull/37
