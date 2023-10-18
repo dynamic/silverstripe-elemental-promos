@@ -4,7 +4,7 @@
 <% if $PromoList %>
     <div class="row element__promos__list">
         <% loop $PromoList.Sort(SortOrder) %>
-            <div class="col-lg-3 col-md-4 col-sm-6 mb-4 element__promos__item">
+            <div class="col-lg-3 col-md-4 col-6 mb-3 element__promos__item">
                 <div class="card h-100">
                     <% if $Image %>
                         <% if $ElementLink %><a href="$Link" title="Read $ElementLink.Title.ATT"><% end_if %>
