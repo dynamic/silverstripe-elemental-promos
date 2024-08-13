@@ -6,8 +6,8 @@ en:
     ContentLabel: 'Intro'
     PLURALNAME: 'Promos Elements'
     PLURALS:
-      one: 'A Promos Element'
-      other: '{count} Promos Elements'
+      one: 'A promo'
+      other: '{count} promos'
     PromosLabel: 'Promos'
     SINGULARNAME: 'Promos Element'
   Dynamic\Elements\Promos\Model\PromoObject:

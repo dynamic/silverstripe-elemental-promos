@@ -146,7 +146,7 @@ class ElementPromos extends BaseElement
         $count = $this->Promos()->count();
         $label = _t(
             static::class . '.PLURALS',
-            'A Promo|{count} Promos',
+            'A promo|{count} promos',
             [ 'count' => $count ]
         );
         
