@@ -12,8 +12,8 @@ A block to display a group of promos - a small card with an image, headline, sho
 
 ## Requirements
 
-* dnadesign/silverstripe-elemental: ^5.0
-* dynamic/silverstripe-elemental-baseobject: ^4.0
+* dnadesign/silverstripe-elemental: ^5
+* dynamic/silverstripe-elemental-baseobject: ^5
 * jonom/focuspoint: ^5
 
 ## Installation
@@ -43,20 +43,9 @@ The default templates are based off [Bootstrap 5](https://getbootstrap.com/) cla
 #### CMS - Promos Block - Promo Edit
 ![CMS - Promos Block - Promos Edit](./docs/en/_images/promos-block-cms-promo-edit.png)
 
-## Upgrading from version 2
+## Upgrading from version 4
 
-Elemental Promos drops `sheadawson/silverstripe-linkable` usage in favor of `gorriecoe/silverstripe-linkfield`. To avoid data loss, install the `dynamic/silverstripe-link-migrator` module as follows:
-
-```markdown
-composer require dynamic/silverstripe-link-migrator
-```
-
-Then, run the task "Linkable to SilverStripe Link Migration" via `/dev/tasks`, or cli via:
-```markdown
-vendor/bin/sake dev/tasks/LinkableMigrationTask
-```
-
-This will populate all of the new Link fields with data from the old class.
+This module drops `gorriecoe/silverstripe-linkfield` usage in favor of `silverstripe/linkfield`.
 
 ## Getting more elements
 
