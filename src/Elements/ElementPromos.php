@@ -43,7 +43,7 @@ class ElementPromos extends BaseElement
     /**
      * @var array
      */
-    private static $styles = array();
+    private static $styles = [];
 
     /**
      * @var array
@@ -55,18 +55,18 @@ class ElementPromos extends BaseElement
     /**
      * @var array
      */
-    private static $many_many = array(
+    private static $many_many = [
         'Promos' => PromoObject::class,
-    );
+    ];
 
     /**
      * @var array
      */
-    private static $many_many_extraFields = array(
-        'Promos' => array(
+    private static $many_many_extraFields = [
+        'Promos' => [
             'SortOrder' => 'Int',
-        ),
-    );
+        ],
+    ];
 
     /**
      * @var array
@@ -117,13 +117,14 @@ class ElementPromos extends BaseElement
                     GridFieldDeleteAction::class,
                     GridFieldArchiveAction::class,
                 ])->addComponents(
-                    new GridFieldOrderableRows('SortOrder'),
-                    new GridFieldAddExistingSearchButton()
+                    GridFieldOrderableRows::create('SortOrder'),
+                    GridFieldAddExistingSearchButton::create()
                 );
 
-                $fields->addFieldsToTab('Root.Main', array(
+
+                $fields->addFieldsToTab('Root.Main', [
                     $promoField,
-                ));
+                ]);
             }
         });
 
@@ -149,7 +150,7 @@ class ElementPromos extends BaseElement
             'A promo|{count} promos',
             [ 'count' => $count ]
         );
-        
+
         return DBField::create_field('HTMLText', $label)->Summary(20);
     }
 
