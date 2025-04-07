@@ -49,6 +49,7 @@ class PromoObject extends BaseElementObject
      *
      * @throws \Exception
      */
+    #[\Override]
     public function getCMSFields(): FieldList
     {
         $this->beforeUpdateCMSFields(function (FieldList $fields) {

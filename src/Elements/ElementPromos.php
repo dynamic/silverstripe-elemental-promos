@@ -88,12 +88,13 @@ class ElementPromos extends BaseElement
      * @param bool $includerelations
      * @return array
      */
+    #[\Override]
     public function fieldLabels($includerelations = true)
     {
         $labels = parent::fieldLabels($includerelations);
 
-        $labels['Content'] = _t(__CLASS__.'.ContentLabel', 'Intro');
-        $labels['Promos'] = _t(__CLASS__ . '.PromosLabel', 'Promos');
+        $labels['Content'] = _t(self::class.'.ContentLabel', 'Intro');
+        $labels['Promos'] = _t(self::class . '.PromosLabel', 'Promos');
 
         return $labels;
     }
@@ -101,6 +102,7 @@ class ElementPromos extends BaseElement
     /**
      * @return FieldList
      */
+    #[\Override]
     public function getCMSFields()
     {
         $this->beforeUpdateCMSFields(function (FieldList $fields) {
@@ -142,6 +144,7 @@ class ElementPromos extends BaseElement
     /**
      * @return DBHTMLText
      */
+    #[\Override]
     public function getSummary()
     {
         $count = $this->Promos()->count();
@@ -157,6 +160,7 @@ class ElementPromos extends BaseElement
     /**
      * @return array
      */
+    #[\Override]
     protected function provideBlockSchema()
     {
         $blockSchema = parent::provideBlockSchema();
@@ -167,8 +171,9 @@ class ElementPromos extends BaseElement
     /**
      * @return string
      */
+    #[\Override]
     public function getType()
     {
-        return _t(__CLASS__.'.BlockType', 'Promos');
+        return _t(self::class.'.BlockType', 'Promos');
     }
 }
