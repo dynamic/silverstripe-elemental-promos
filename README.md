@@ -1,6 +1,6 @@
 # Silverstripe Elemental Promos
 
-A block to display a group of promos - a small card with an image, headline, short desciption, and link.
+A block to display a group of promos - a small card with an image, headline, short description, and link.
 
 [![CI](https://github.com/dynamic/silverstripe-elemental-promos/actions/workflows/ci.yml/badge.svg)](https://github.com/dynamic/silverstripe-elemental-promos/actions/workflows/ci.yml) [![Sponsors](https://img.shields.io/badge/GitHub-Sponsors-ff69b4?logo=github)](https://github.com/sponsors/dynamic)
 
@@ -25,7 +25,7 @@ See [License](LICENSE.md)
 
 ## Usage
 
-A content block to display a group of promos - a small card with an image, headline, short desciption, and link. Typically this will display 3 to 4 promos per row depending on layout restrictions.
+A content block to display a group of promos - a small card with an image, headline, short description, and link. Typically this will display 3 to 4 promos per row depending on layout restrictions.
 
 ### Template Notes
 
