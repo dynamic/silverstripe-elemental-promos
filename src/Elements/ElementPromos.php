@@ -43,7 +43,7 @@ class ElementPromos extends BaseElement
     /**
      * @var array
      */
-    private static $styles = array();
+    private static $styles = [];
 
     /**
      * @var array
@@ -55,18 +55,18 @@ class ElementPromos extends BaseElement
     /**
      * @var array
      */
-    private static $many_many = array(
+    private static $many_many = [
         'Promos' => PromoObject::class,
-    );
+    ];
 
     /**
      * @var array
      */
-    private static $many_many_extraFields = array(
-        'Promos' => array(
+    private static $many_many_extraFields = [
+        'Promos' => [
             'SortOrder' => 'Int',
-        ),
-    );
+        ],
+    ];
 
     /**
      * @var array
@@ -88,12 +88,13 @@ class ElementPromos extends BaseElement
      * @param bool $includerelations
      * @return array
      */
+    #[\Override]
     public function fieldLabels($includerelations = true)
     {
         $labels = parent::fieldLabels($includerelations);
 
-        $labels['Content'] = _t(__CLASS__.'.ContentLabel', 'Intro');
-        $labels['Promos'] = _t(__CLASS__ . '.PromosLabel', 'Promos');
+        $labels['Content'] = _t(self::class.'.ContentLabel', 'Intro');
+        $labels['Promos'] = _t(self::class . '.PromosLabel', 'Promos');
 
         return $labels;
     }
@@ -101,6 +102,7 @@ class ElementPromos extends BaseElement
     /**
      * @return FieldList
      */
+    #[\Override]
     public function getCMSFields()
     {
         $this->beforeUpdateCMSFields(function (FieldList $fields) {
@@ -117,13 +119,14 @@ class ElementPromos extends BaseElement
                     GridFieldDeleteAction::class,
                     GridFieldArchiveAction::class,
                 ])->addComponents(
-                    new GridFieldOrderableRows('SortOrder'),
-                    new GridFieldAddExistingSearchButton()
+                    GridFieldOrderableRows::create('SortOrder'),
+                    GridFieldAddExistingSearchButton::create()
                 );
 
-                $fields->addFieldsToTab('Root.Main', array(
+
+                $fields->addFieldsToTab('Root.Main', [
                     $promoField,
-                ));
+                ]);
             }
         });
 
@@ -141,6 +144,7 @@ class ElementPromos extends BaseElement
     /**
      * @return DBHTMLText
      */
+    #[\Override]
     public function getSummary()
     {
         $count = $this->Promos()->count();
@@ -149,13 +153,14 @@ class ElementPromos extends BaseElement
             'A promo|{count} promos',
             [ 'count' => $count ]
         );
-        
+
         return DBField::create_field('HTMLText', $label)->Summary(20);
     }
 
     /**
      * @return array
      */
+    #[\Override]
     protected function provideBlockSchema()
     {
         $blockSchema = parent::provideBlockSchema();
@@ -166,8 +171,9 @@ class ElementPromos extends BaseElement
     /**
      * @return string
      */
+    #[\Override]
     public function getType()
     {
-        return _t(__CLASS__.'.BlockType', 'Promos');
+        return _t(self::class.'.BlockType', 'Promos');
     }
 }

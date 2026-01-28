@@ -28,9 +28,9 @@ class PromoObject extends BaseElementObject
     /**
      * @var array
      */
-    private static $belongs_many_many = array(
+    private static $belongs_many_many = [
         'ElementPromos' => ElementPromos::class,
-    );
+    ];
 
     /**
      * @var string
@@ -49,7 +49,8 @@ class PromoObject extends BaseElementObject
      *
      * @throws \Exception
      */
-    public function getCMSFields()
+    #[\Override]
+    public function getCMSFields(): FieldList
     {
         $this->beforeUpdateCMSFields(function (FieldList $fields) {
             $fields->removeByName('ElementPromos');
